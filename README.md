@@ -64,4 +64,4 @@ Start the development server:
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000)/task in your browser.
+Open [http://localhost:3000](http://localhost:3000)/tasks in your browser.
