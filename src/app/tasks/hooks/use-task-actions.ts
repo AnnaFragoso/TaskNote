@@ -47,7 +47,6 @@ export function useTaskActions() {
   const updateMutation = useMutation(
     trpc.task.update.mutationOptions({
       onSuccess: async () => {
-        await new Promise((resolve) => setTimeout(resolve, 3000));
         await refreshTasks();
         handleSuccess("Task updated successfully!");
       },
